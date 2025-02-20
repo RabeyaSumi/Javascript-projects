@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>YouTube Bookmark Manager</title>
+  <style>
+    body { font-family: Arial, sans-serif; width: 300px; padding: 10px; }
+    button { margin-top: 10px; padding: 5px 10px; cursor: pointer; }
+    ul { list-style: none; padding: 0; }
+    li { display: flex; justify-content: space-between; align-items: center; margin: 5px 0; }
+    .bookmark-time { cursor: pointer; color: blue; text-decoration: underline; }
+    .delete-btn { background: red; color: white; border: none; cursor: pointer; padding: 2px 6px; }
+  </style>
+</head>
+<body>
+  <h3>YouTube Bookmarks</h3>
+  <button id="saveBookmark">Save Bookmark</button>
+  <ul id="bookmarksList"></ul>
+  <script src="popup.js"></script>
+</body>
+</html>
